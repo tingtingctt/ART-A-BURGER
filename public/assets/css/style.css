@@ -1,19 +1,48 @@
-li {
-  padding: 5px;
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#main {
+  position: relative;
+  z-index: 1;
+}
+
+canvas {
+  border: 1px solid red;
+  position: absolute;
+  top: 0;
+}
+
+
+h1 {
+  text-align: center;
+  font-family: 'Cormorant Upright', serif;
+}
+
+ul {
+  list-style: none;
+}
+
+li, input {
+  padding: 5px 10px 5px 10px;
   margin: 5px;
-  background: #faebd7;
+  background: red;
+  border-radius: 10px;
+  color: white;
+  width: 100%;
 }
 
-.label {
-  font-weight: bold;
+.change-devour {
+  float: right;
 }
 
-.create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background: aqua;
+button {
+  background: black;
+  border-radius: 10px;
+  color: white;
 }
 
-.form-group {
-  margin-bottom: 5px;
+#submit {
+  margin-left: 200px;
 }
+
